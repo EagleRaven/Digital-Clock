@@ -1,0 +1,62 @@
+@font-face {
+    font-family: erg;
+    src: url("JuliusSansOneAmended.ttf")
+}
+
+@font-face {
+    font-family: digital;
+    src: url('Fonts/DS-DIGI.TTF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height:100%;
+    max-width: 100%;
+    min-width: 70rem;
+    background-color: #232b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: digital;
+    color: #F5F5F5;
+    text-shadow: 0 0 10px #F5F5F5;
+}
+
+#time {
+    display: flex;
+    gap: 5px;
+
+}
+
+#left {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#middle {
+    font-size: 18rem;
+
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+
+}
+
+
+
