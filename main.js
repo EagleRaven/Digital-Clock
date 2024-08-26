@@ -42,10 +42,10 @@ function getTime(){
     // Making the hour 12 hour time
     if(hour > 12 ){
         hourAmended = hour - 12;
-        ampmDiv.textContent = 'am';
+        ampmDiv.textContent = 'pm';
     }
     else{
-        ampmDiv.textContent = 'pm';
+        ampmDiv.textContent = 'am';
     }
 
 
@@ -63,7 +63,10 @@ function getTime(){
     
     minuteDiv.textContent = minute;
 
-    console.log(second);
+    console.log(hour)
+    console.log(hourAmended)
+
+    // console.log(second);
 }
 
 setInterval(getTime, 1000);
