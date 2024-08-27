@@ -31,6 +31,11 @@ function getTime(){
     // TIME
 
     // Making the hour 12 hour time
+
+    if(hour === 12){
+        ampmDiv.textContent = 'pm';
+    }
+
     if(hour > 12 ){
         hourAmended = hour - 12;
         ampmDiv.textContent = 'pm';
