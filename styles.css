@@ -24,7 +24,7 @@ main {
     /* min-width: 40rem; */
     background-color: #232b2b;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     font-family: digital;
     color: #F5F5F5;
