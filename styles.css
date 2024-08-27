@@ -24,7 +24,7 @@ main {
     min-width: 70rem;
     background-color: #232b2b;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-family: digital;
     color: #F5F5F5;
@@ -34,6 +34,7 @@ main {
 #time {
     display: flex;
     gap: 5px;
+    margin-left: 10px;
 
 }
 
