@@ -34,8 +34,8 @@ main {
 #time {
     display: flex;
     gap: 20px;
-    margin-left: 10px;
-    min-width: 40rem;
+    /* margin-left: 10px; */
+    /* min-width: 40rem; */
 
 }
 
