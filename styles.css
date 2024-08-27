@@ -39,7 +39,7 @@ main {
 }
 
 #left {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,14 +48,14 @@ main {
 }
 
 #middle {
-    font-size: 18rem;
+    font-size: 12rem;
 
 }
 
 #right {
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 
