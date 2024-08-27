@@ -18,7 +18,7 @@ function getTime(){
     
     // DAY
     let day = now.getDay();
-    const days_of_week = ["Sun", "Mon", "Tues", "Weds", "Thurs", "Fri", "Sat"];
+    const days_of_week = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     let today = days_of_week[day];
 
     let date = now.getDate();
