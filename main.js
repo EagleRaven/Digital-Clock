@@ -31,11 +31,7 @@ function getTime(){
     // TIME
 
     // Making the hour 12 hour time
-
-    if(hour === 12){
-        ampmDiv.textContent = 'pm';
-    }
-
+ 
     if(hour > 12 ){
         hourAmended = hour - 12;
         ampmDiv.textContent = 'pm';
@@ -44,16 +40,15 @@ function getTime(){
         ampmDiv.textContent = 'am';
     }
 
-    // // Adding 0 if below 10
-    // if(hourAmended < 10){
-    //     hourAmended = '0' + hourAmended;
-    // }
+    if(hour === 12){
+        ampmDiv.textContent = 'pm';
+    }
+
 
     // Same as above for minute
     if(minute < 10){
         minute = '0' + minute;
     }
-
 
 
     // Render to page
@@ -70,8 +65,6 @@ function getTime(){
     
     minuteDiv.textContent = minute;
 
-    console.log(hour)
-    console.log(hourAmended)
 
     // console.log(second);
 }
